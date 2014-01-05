@@ -39,3 +39,9 @@ git log
 git config --global core.precomposeunicode true
 http://qiita.com/qckanemoto/items/5276f056517d191e19b5
 
+****
+あああそうじゃなくてコミットするときに
+git commit -m “hoge”
+じゃなくて
+git commit -a -m “hoge”
+なのか。よくわからん。
