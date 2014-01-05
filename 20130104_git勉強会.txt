@@ -1,0 +1,29 @@
+code school
+https://www.codeschool.com/
+
+git rm よりgit resetのほうがいい
+
+ローカルリポジトリ　ー　リモートリポジトリ
+自分の環境　　　　　ー　自分以外のすべての環境
+
+ローカルリポジトリ　ー　オリジン
+自分の環境　　　　　ー　全員で共有するリモートリポジトリ
+git remote add origin https://github.com/try-git/try_git.git
+まずからのリポジトリを作ってから↑する
+
+bare repository
+だれもそこでソースコードをいじらない
+ソースコードを中央管理するためのリポジトリ
+git init —bare
+
+pull = fetch + merge
+フェッチとマージを同時に行うのがプル
+
+オリジンとベアリポジトリ
+
+git clone https://*****
+https://****をオリジンとしてリポジトリの内容をすべてコピーする
+
+pullしてからpushする
+pullするとコンフリクトしていることがわかるので修正してからpushする
+
