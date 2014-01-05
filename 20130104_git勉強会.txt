@@ -27,3 +27,15 @@ https://****をオリジンとしてリポジトリの内容をすべてコピ�
 pullしてからpushする
 pullするとコンフリクトしていることがわかるので修正してからpushする
 
+****
+git commit -m “日本語文字列”
+してみたら、コマンド実行時のメッセージは文字化けしていたが
+git log
+のログは文字化けしていなかった。
+
+****
+勉強会では触れられなかったけどMacで日本語ファイル名はだめみたい。
+これするといいみたい。
+git config --global core.precomposeunicode true
+http://qiita.com/qckanemoto/items/5276f056517d191e19b5
+
